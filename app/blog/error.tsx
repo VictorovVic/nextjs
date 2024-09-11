@@ -2,6 +2,6 @@
 
 export default function error({error}: {error: Error}) {
   return (
-    <h1>Oooops! {error.message}</h1>
+     <h1>Oooops! {error.message}</h1>
   )
 }
